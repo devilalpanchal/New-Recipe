@@ -11,13 +11,13 @@ body{
     height:200vh;
 }
 .main-content{
-    /* margin: 60px auto; */
+    
     align-items: center;
     justify-content: center;
     display: flex;
-    /* margin: 40px ; */
+
    width: 400px;
-   /* height: 1010px; */
+ 
    padding: 12px;
    background-color: hsl(0, 0%, 100%);
    border-radius: 10px;
