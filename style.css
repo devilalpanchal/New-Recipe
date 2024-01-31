@@ -4,18 +4,24 @@ body{
     box-sizing: border-box;
     background-color: wheat;
     justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:200vh;
 }
 .main-content{
+    /* margin: 60px auto; */
+    align-items: center;
     justify-content: center;
     display: flex;
-    margin: 40px ;
+    /* margin: 40px ; */
    width: 400px;
-   height: 1010px;
+   /* height: 1010px; */
    padding: 12px;
    background-color: hsl(0, 0%, 100%);
    border-radius: 10px;
-   flex-wrap: wrap;
+   flex-direction: column;
 }
 .section-1{
     margin-top: 12px;
@@ -23,7 +29,6 @@ body{
 }
 .image1{
     width: 390px;
-    display: flex;
     height: 200px;
     border-radius: 10px;
 
@@ -112,4 +117,22 @@ h3  {
 h5{
     color:rgb(128, 5, 83)
 }
+.footer {
+    background-color: rgb(131, 131, 131);
+    color: hsl(219, 29%, 14%);
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
+.attribution a {
+    color: blue;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: none;
+    color: aqua;
+}
